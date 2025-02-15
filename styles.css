@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header > h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: #34495e;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Link Styling */
+a:link {
+    color: #3498db;
+}
+
+a:visited {
+    color: #9b59b6;
+}
+
+a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #e67e22;
+}
+
+/* Section and Article Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #2c3e50;
+}
+
+section p {
+    color: #34495e;
+}
+
+/* Adjacent Sibling Combinator */
+h2 + p {
+    font-style: italic;
+    color: #8e44ad;
+}
+
+/* General Sibling Combinator */
+h2 ~ ul {
+    list-style-type: square;
+    color: #27ae60;
+}
+
+/* Aside Styling */
+aside {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+    color: #2c3e50;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #2ecc71;
+}
